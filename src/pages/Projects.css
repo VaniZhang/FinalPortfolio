@@ -1,0 +1,71 @@
+.projects {
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  width: 100vw;
+  background: url('../assets/projects-bg.jpg') center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.projects p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust columns dynamically */
+  gap: 2rem;
+  width: 90%;
+  max-width: 1200px; /* Add a max width for better alignment on larger screens */
+  margin: 0 auto;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Space out content vertically */
+  background: rgba(0, 0, 0, 0.758); /* Slightly lighter background */
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.project-card img {
+  width: 100%; /* Image spans full width of the card */
+  height: auto; /* Ensure the image maintains its aspect ratio */
+  max-height: 300px; 
+  object-fit: contain; /* Ensures image fills the space */
+  border-bottom: 3px solid #f39c12;
+}
+
+.project-card h3 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.project-card p {
+  margin: 0 1rem 1.5rem;
+  padding: 0 1rem;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}

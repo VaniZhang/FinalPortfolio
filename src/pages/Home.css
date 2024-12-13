@@ -1,0 +1,30 @@
+.home {
+  display: flex; /* Center content horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw;
+  background: url('../assets/about-bg.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.home-content {
+  max-width: 800px; /* Keeps content readable and centered */
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text contrast */
+  border-radius: 12px; /* Rounded corners for a polished look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-family: "Courier New", Courier, monospace; /* Give a typewriter feel */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}

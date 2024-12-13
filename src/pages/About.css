@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row; /* Position image and text side by side */
+  align-items: center;
+  gap: 2rem; /* Add spacing between image and text */
+}
+
+.about-image img {
+  width: 300px; /* Adjust the image size */
+  height: 300px;
+  border-radius: 50%; /* Circular image */
+  object-fit: cover; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Add shadow to the image */
+}
+
+.about-text {
+  background: rgba(28, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 2rem;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(119, 119, 119, 0.355); /* Subtle shadow */
+  text-align: left; /* Align text to the left */
+  max-width: 600px; /* Limit text width */
+}
+
+.about-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
