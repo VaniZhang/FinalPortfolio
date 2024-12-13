@@ -3,7 +3,7 @@
   padding: 2rem;
   min-height: 100vh;
   width: 100vw;
-  background: url('../assets/projects-bg.jpg') center/cover no-repeat;
+  background: url('../assets/projects-bg.jpg') center/cover no-repeat;/* Absolute path to public folder */
   color: white;
   display: flex;
   flex-direction: column;
