@@ -1,5 +1,8 @@
 import React from "react";
 import projectsBg from "../assets/projects-bg.jpg";
+import project1 from "../assets/project1.jpg";
+import project2 from "../assets/project2.jpg";
+import project3 from "../assets/project3.jpg";
 import "./Projects.css";
 
 const Projects = () => {
@@ -7,17 +10,17 @@ const Projects = () => {
     {
       title: "Cyberpunk",
       description: "Poster made in 12/09/2024.",
-      image: `${process.env.PUBLIC_URL}/assets/project1.jpg`, // Updated path
+      image: project1, // Use imported image// Updated path
     },
     {
       title: "Illusion",
       description: "Creative Artwork made in 11/15/2024.",
-      image: `${process.env.PUBLIC_URL}/assets/project2.jpg`, // Updated path
+      image: project2, // Use imported image
     },
     {
       title: "Chaos",
       description: "Selfie Art made in 10/27/2024.",
-      image: `${process.env.PUBLIC_URL}/assets/project3.jpg`, // Updated path
+      image: project3, // Use imported image
     },
   ];
 
